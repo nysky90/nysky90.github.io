@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+
+    .feed-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .carousel__inner {
+        width: 100%;
+
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .consultation__discr {
+        text-align: center;
+    }
+
+    .catalog__content {
+        justify-content: space-around;
+    }
+
+    .reviews__item {
+        margin: 0 30px;
+    }
+
+
+
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+
+        &__phone {
+            font-size: 16px;
+        }
+    }
+
+    .advantages {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .title_left {
+        font-size: 32px;
+    }
+
+    .catalog__tabs {
+        margin: 0 30px;
+    }
+
+    .catalog__tab {
+        width: 33%;
+        font-size: 14px;
+    }
+    .reviews__item {
+        flex-direction: column;
+        img {
+            margin-right: 0;
+        }
+    }
+    .reviews__title {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .reviews__calc {
+        text-align: center;
+    }
+    .reviews__feedback {
+        margin-left: 0;
+    }
+    .footer{
+        margin-top: 20px;
+        &__info {
+            width: 100%;
+        }
+    }
+}

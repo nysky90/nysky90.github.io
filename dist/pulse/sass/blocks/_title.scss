@@ -1,0 +1,31 @@
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center;
+    text-transform: uppercase;
+
+    &_left {
+        color: #ffffff;
+        text-align: left;
+        font-size: 36px;
+    }
+
+}
+
+.discr {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-top: 38px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-top: 26px;
+}
