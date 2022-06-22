@@ -1,0 +1,36 @@
+{
+  "name": "2nd-site-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nysky90/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nysky90/project/issues"
+  },
+  "homepage": "https://github.com/nysky90/project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "chokidar": "^3.5.3",
+    "gulp": "^4.0.2",
+    "uuid": "^8.3.2"
+  }
+}

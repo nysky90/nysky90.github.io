@@ -1,0 +1,26 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    &_s16 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &_s48 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    &_s14 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &_s20 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &_s36 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+    grid-area: title;   
+}
