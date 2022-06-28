@@ -1,6 +1,7 @@
 var hamburget = document.querySelector('.hamburger'),
     menu = document.querySelector('.menu'),
-    closeIt = document.querySelector('.menu__close');
+    closeIt = document.querySelector('.menu__close'),
+    item = document.querySelector('.menu__list');
 
 hamburget.addEventListener ('click', () => {
     menu.classList.add('active');
@@ -8,6 +9,10 @@ hamburget.addEventListener ('click', () => {
 
 closeIt.addEventListener ('click', () => {
     menu.classList.remove('active');
+});
+
+item.addEventListener ('click', () => {
+  menu.classList.remove('active');
 });
 
 const counter = document.querySelectorAll('.iuse__progress-procent'),
